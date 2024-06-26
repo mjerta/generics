@@ -14,7 +14,6 @@ public class Result<T> {
   // is this a factory method? yes yes
   public static <T> Result<T> success(T value) {
     return new Result<T>(value, null, true); // die errormessage kan dus niet in dit geval, maar dat hoef ook niet.... denk ik
-
   }
 
   // is this a factory method? yes yes

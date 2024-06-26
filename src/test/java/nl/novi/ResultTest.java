@@ -11,9 +11,9 @@ public class ResultTest {
   void canCreateSuccesResult() {
     // arrange
     // act
-    Result<String> example = Result.success("succes");
+    Result<String> sut = Result.success("succes");
     // assert
-    assertEquals();
+    assertEquals("good job buddy",sut);
   }
 
 
